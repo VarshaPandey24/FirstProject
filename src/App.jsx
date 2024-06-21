@@ -1,6 +1,7 @@
 import React from 'react';
-import header from 'src/components/Header/Header';
-import Hero from 'src/components/Hero/Hero';
+import Header from './components/Header/Header';
+import Hero from './components/Hero/Hero';
+import './App.css';
 
 
 const App=() => {
@@ -8,8 +9,10 @@ const App=() => {
    <div className="App">
     <div>
     <div className="white-gradient">
+    <Header/>
       <Hero/>
-      <Header/>
+    
+      
     </div>
     </div>
   

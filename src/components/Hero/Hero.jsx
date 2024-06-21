@@ -5,6 +5,7 @@ import {HiLocationMarker} from 'react-icons/hi'
 const Hero =(()=>{
     return(
         <section className="herowrapper">
+          
           <div className='paddings flexCenter innerWidth hero-container'>
                   <div className="flexColStart hero-left">
                        <div className="orange-circle"/>
@@ -30,6 +31,7 @@ const Hero =(()=>{
                            <img src="./hero-image.png" alt="" />
   </div>
              </div>
+             
           </div>
 
         </section>
