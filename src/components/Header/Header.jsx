@@ -4,8 +4,9 @@ import './Header.css';
  const Header =()=>{
     return(
         <section className="h-wrapper">
-            <div className="flexCenter paddings innerWidth h-container">
-                <img src="./public/logo.png" alt="logo" width ={100} />
+            <div className=" flexCenter paddings innerWidth h-container">
+                
+                <img src="./logo.png" alt="logo" width ={100} />
                 <div className="flexCenter h-menu ">
                     <a href="">Residencies</a>
                     <a href="">Our Value</a>
