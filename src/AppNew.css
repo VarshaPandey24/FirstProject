@@ -2,7 +2,7 @@
     position:relative;
     overflow-x:clip;
 }
-.App:nth-child(1){
+.child1{
     background: var(--black);
     position:relative;
 }
