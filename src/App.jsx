@@ -1,22 +1,24 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
+import Companies from './components/Companies/Companies';
 import './App.css';
-
+import './AppNew.css'
+import Residencies from './components/Residencies/Residencies';
 
 const App=() => {
   return (
    <div className="App">
     <div>
-    <div className="white-gradient">
+    <div className="white-gradient"/>
     <Header/>
-      <Hero/>
-    
-      
+      <Hero/>   
     </div>
-    </div>
+    <Companies/>
+    <Residencies/>
   
    </div>
+   
    
   );
 }
