@@ -37,15 +37,15 @@ function Residencies() {
         </div>
     </section>
   )
-}
+};
 
-export default Residencies
+export default Residencies;
 
 const sliderButton =()=>{
     const swiper =useSwiper();
     return(
         <div className="r-button">
-            <button onClick={()=>swiper.slidePrev()}>&lt;</button>
+            <button onClick={()=>swiper.slidePr.ev()}>&lt;</button>
             <button onClick={()=>swiper.slideNext()}>&gt;</button>
         </div>
     );
